@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="topnav">
+    <Img src = "img/logo-runzik.jpg" alt = "example">
+
+      <div class="select">
+        <select>
+          <option><a href="#about">Produit</a></option>
+          <option value="1">Nos Casque</option>
+          <option value="1">Nos Montres</option>
+          <option value="1">Le brassard</option>
+        </select>
+      </div>
+
+      <div class="select">
+        <select>
+          <option><a href="#contact">L'Entreprise</a></option>
+          <option value="1"></option>
+        </select>
+      </div>
+
+      <div class="select">
+        <select>
+          <option><a href="#contact">Infos/Contact</a></option>
+          <option value="1"><a href="#contact">Contact</a></option>
+          <option value="1"><a href="faq.html">FAQ</a></option>
+          <option value="1"><a href="cvg.html">CVG/Mention Légales</a></option>
+        </select>
+      </div>
+
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+          <div class="login">
+            <a href="#">Login/Inscription</a>
+          </div>
+          <div class="drapeau">
+            <img src="img/drapeau.png" alt="">
+          </div>
+          <div class="panier">
+            <img src="img/panier.png" alt="">
+          </div>
+        </form>
+      </div>
+    </div>
+
+  <div class="infos_contact">
+    <h2>Contact </h2>
+  </div>
+
+  <div class="contact">
+    <h2>Contact</h2>
+  </div>
+
+  <div class="div-categoryContainer">
+    <img src="img/tel.jpg" class="picture-left3">
+    <div class="paragraph-right3">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+
+    <div id="trait_dessus3"><hr></div>
+
+    <a href="index.html" class="bouton3">Telephone</a>
+
+    <h1>Formulaire de contact</h1>
+    <form name="myForm" action="/file.html" onsubmit="return validateForm()" method="post">
+
+      <table class="form-style">
+        <tr>
+          <td>
+            <label>
+              Votre nom <span class="required">*</span>
+            </label>
+          </td>
+          <td>
+            <input type="text" name="name" class="long"/>
+            <span class="error" id="errorname"></span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>
+              Votre Prénom <span class="required">*</span>
+            </label>
+          </td>
+          <td>
+            <input type="text" name="name" class="long"/>
+            <span class="error" id="errorname"></span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>
+              Votre adresse e-mail <span class="required">*</span>
+            </label>
+          </td>
+          <td>
+            <input type="email" name="email" class="long"/>
+            <span class="error" id="erroremail"></span>
+          </td>
+        </tr>
+          <tr>
+            <td>
+              <label>
+                Sujet <span class="required">*</span>
+              </label>
+              <select id="country" name="country">
+                <option value="produit">Produit</option>
+                <option value="information">Information</option>
+                <option value="garantie">Garantie</option>
+                <option value="mode de reglement">Mode de Réglement</option>
+                <option value="satisfait ou rembourse">Satisfait ou Rembousé</option>
+              </select>
+            </td>
+            <!-- <td>
+              <input type="text" name="name" class="long"/>
+              <span class="error" id="errorname"></span>
+            </td> -->
+          </tr>
+          <tr>
+            <td>
+              <label>
+                Message <span class="required">*</span>
+              </label>
+            </td>
+            <td>
+              <textarea name="message" class="long field-textarea"></textarea>
+              <span class="error" id="errormsg"></span>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" value="Envoyer">
+              <input type="reset" value="Réinitialiser">
+            </td>
+          </tr>
+        </table>
+      </form>
+      <a href="infos.html" class="bouton4">retour</a>
+
+      <footer>
+            <div class="footer-content">
+                <div class="cgu-ml-contact-left">
+                    <p class="les-mentions-contact">
+                        CGU <br/><!--Ajouter un line heigh-->
+                        MENTIONS LEGALES<br/>
+                        CONTACT
+                    </p>
+                </div>
+                <div class="reseaux-sociaux-center">
+                    <a href="#"><img class="facebook" src="images/facebook.png" alt="fb"></a>
+                    <a href="#"><img class="twitter" src="images/twitter.png" alt="twitter"></a>
+                    <a href="#"><img class="pinterest" src="images/pinterest.png" alt="pinterest"></a>
+                </div>
+                <div class="paiement-right">
+                    <img class="pay" src="images/payplug_hd_run_zik.png" alt="pay">
+                    <p class="copyright">© RUN’ZIC</p>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+    </body>
+    </html>
