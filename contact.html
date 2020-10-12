@@ -7,50 +7,46 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <div class="topnav">
-    <Img src = "images/logo-runzik.jpg" alt = "example">
 
-      <div class="select">
-        <select>
-          <option><a href="#about">Produit</a></option>
-          <option value="1">Nos Casque</option>
-          <option value="1">Nos Montres</option>
-          <option value="1">Le brassard</option>
-        </select>
-      </div>
 
-      <div class="select">
-        <select>
-          <option><a href="#contact">L'Entreprise</a></option>
-          <option value="1"></option>
-        </select>
-      </div>
+  <nav>
+      <ul id="nav-bar">
+          <li>
+              <a href="index.html"><img class=img-logos src="images/logo-runzik.jpg" alt='Logo Run' Zik'></a></li>
+          <li>
+              <a href="produits.html">Nos produits</a>
+              <ul>
+                  <li><a href="casque.html">Notre casque</a></li>
+                  <li><a href="montre.html">Notre montre</a></li>
+                  <li><a href="brassard.html">Notre brassard</a></li>
+              </ul>
+          </li>
+          <li><a href="#">Notre technologie</a>
+          </li>
+          <li><a href="#">Infos</a>
+              <ul>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="cgv.html">CGV</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+              </ul>
+          </li>
+          <li>
+              <form class="form-inline">
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                  <input type="image" src="loupe.png" class="loupe" placeholder="Search" aria-label="Search">
+              </form>
+          <li>
+              <a href="inscription.html" class="inscription">Connexion/Inscription</a>
+          </li>
+          <li>
+              <a href="#"><img src="images/drapeau_us.png" alt="Drapeau anglais" class="drapeau_us"></a>
+          </li>
+          <li>
+              <a href="panier.html"><img src="images/panier.png" alt="Logo panier" class="panier_noir"></a>
+          </li>
+      </ul>
+  </nav>
 
-      <div class="select">
-        <select>
-          <option><a href="#contact">Infos/Contact</a></option>
-          <option value="1"><a href="#contact">Contact</a></option>
-          <option value="1"><a href="faq.html">FAQ</a></option>
-          <option value="1"><a href="cvg.html">CVG/Mention Légales</a></option>
-        </select>
-      </div>
-
-      <div class="search-container">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
-          <div class="login">
-            <a href="#">Login/Inscription</a>
-          </div>
-          <div class="drapeau">
-            <img src="images/drapeau.png" alt="">
-          </div>
-          <div class="panier">
-            <img src="images/panier.png" alt="">
-          </div>
-        </form>
-      </div>
-    </div>
 
   <div class="infos_contact">
     <h2>Contact </h2>
