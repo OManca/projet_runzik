@@ -48,7 +48,25 @@
                 <a href="#"><img src="images/drapeau_us.png" alt="Drapeau anglais" class="drapeau_us"></a>
             </li>
             <li>
-                <a href="panier.html"><img src="images/panier.png" alt="Logo panier" class="panier_noir"></a>
+                <a href="#"><p id="A"></p>
+                <img src="images/panier.png" alt="Logo panier" id="panier_noir"></a>
+  
+                <div id="monModal" class="modal">
+
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p class="titrepanier">Votre panier</p>
+                    <p id="casque_article"></p>
+                    <input id="plus" type="button" value="+">
+                    <div id="boite"></div> 
+                    <input id ="moins" type="button" value="-" >
+                    <p id="prixducasque"></p>
+                  </div>
+                
+                </div>            
+            </li>
+            <ul>
+            </ul>
             </li>
         </ul>
     </nav>
@@ -80,7 +98,7 @@
             <p>Prix : 189,00€</p>
         </div>
         <div id="panier_casque">
-            <a href="panier.html">Ajouter au panier</a>
+            <a href="#">Ajouter au panier</a>
         </div>
     </section>
     <section class="carac_produits_casque">
@@ -154,8 +172,6 @@
         </div>
     </section>
 
-
-</body>
 <footer>
     <div class="footer-content">
         <div class="cgu-ml-contact-left">
@@ -176,5 +192,6 @@
         </div>
     </div>
 </footer>
-
+<script src="panier.js"></script>
+</body>
 </html>
