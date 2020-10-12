@@ -106,25 +106,12 @@ nav {
   background-color: #C16B13;
   font-size: 90px;
   text-align: center;
+  top: 55px;
+  position: relative;
   /* position: absolute; */
   margin: 0px;
 }
 
-.infos_cvg h2 {
-  background-color: #C4C4C4;
-  font-size: 90px;
-  text-align: center;
-  /* position: absolute; */
-  margin: 0px;
-}
-
-.infos_mention h2 {
-  background-color: #C4C4C4;
-  font-size: 90px;
-  text-align: center;
-  /* position: absolute; */
-  margin: 0px;
-}
 
 .image_contact img {
   width: -webkit-fill-available;
@@ -184,34 +171,6 @@ nav {
 }
 
 
-
-/*FAQ*/
-
-/* .faq h2 {
-text-align: center;
-position: relative;
-}
-.image_gauche2 img {
-width: 20%;
-/* align-items: center; */
-/* position: relative;
-left: 171px;
-}
-
-.image_gauche {
-float: left;
-width: 50%;
-}
-.texte_droite2  {
-float: right;
-width: 50%;
-position: relative;
-}
-
-.texte_droite2 p {
-text-align: center;
-position: relative;
-}  */
 a.bouton8 {
 
   padding: 15px 40px;
@@ -722,7 +681,6 @@ textarea{
   padding-right: 105px;
   padding-top: 20px;
 }
-
 
 .facebook,
 .twitter,

@@ -106,6 +106,8 @@ nav {
   background-color: #C16B13;
   font-size: 90px;
   text-align: center;
+  top: 55px;
+  position: relative;
   /* position: absolute; */
   margin: 0px;
 }
