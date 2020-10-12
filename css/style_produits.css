@@ -135,25 +135,19 @@ width: 2%;
 }
   
 /****** Nos Produits ******/
+/* @media screen and (max-width: 1200px){ */
 .titre_produits {
     width: 100%;
     height: 200px;
     background-color: #F5EFE4;
 }
 .titre_produits h1{
-    padding-left: 40%;
+  text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
     font-size: 50px;
     font-family: 'raleway' , sans-serif;
     font-weight: 700;
-}
-@media screen and (min-width: 1200px) {
-  .titre_produits h1{
-    padding-left: 36%;
-
-
-  }
 }
 /****** Notre Casque *****/
 .nos_casques {
@@ -161,13 +155,13 @@ width: 2%;
     height: 500px;
     background-color: #EFBF8D;
 }
-.nos_casques h2{
+h2{
     font-size: 40px;
     font-family: 'raleway' , sans-serif;
     font-weight: 600;
     font-size: 45px;
 }
-.nos_casques p{
+p{
     font-family: 'roboto' , sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -190,9 +184,6 @@ width: 2%;
 .nos_casques_titre{
     margin-bottom: 30px;
 }
-
-
-
 /****** Notre montre *******/
 
 .nos_montres {
@@ -230,10 +221,6 @@ width: 2%;
     padding-left: 150px;
     line-height: 24px;
 }
-
-
-
-
 /***** Notre brassard ******/
 
 .le_brassard {
@@ -270,6 +257,86 @@ width: 2%;
     padding-top: 150px;
     padding-left: 750px;
     line-height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .nos_casques h2 {
+    font-size: 37px;
+  }
+  .nos_montres h2 {
+    font-size: 37px;
+  }
+  .le_brassard h2 {
+    font-size: 37px;
+  }
+  .nos_casques p{
+    font-size: 20px;
+  }
+  .nos_montres p{
+    font-size: 20px;
+  }
+  .le_brassard p{
+    font-size: 20px;
+  }
+  .titre_produits h1{
+    width: 100%;
+  }
+  .nos_casques{
+    width: 100%;
+    height: 400px;
+  }
+  .nos_casques_img{
+    width: 40%;
+  }
+  .nos_casques_img img{
+    width: 100%;
+    height: 30%;
+ }
+  .nos_casques_droite{
+    padding-top: 90px;
+    padding-left: 375px;
+    width: 45%;    
+  }
+  .nos_montres {
+    width: 100%;
+    height:370px;
+  }
+  .nos_montres_img {
+    width: 45%;  
+    padding-top: 30px;
+    padding-right: 0px;
+  }
+  .nos_montres_img img{
+    width: 100%;
+    height: 100%;
+  }
+  .nos_montres_gauche{
+    float: none;
+    padding-left: 80px;
+    padding-top: 90px;
+    width: 45%;
+  }
+  .le_brassard{
+    width: 100%;
+    height: 400px;
+  }
+  .le_brassard_img{
+    width: 38%;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  .le_brassard_img img {
+    width: 100%;
+    height: 100%;
+  }
+  .le_brassard_droite{
+    padding-left: 30px;
+    padding-top: 90px;
+    float: left;
+    width: 45%;
+  }
+  
+
 }
 
 /****** Page casque ******/
