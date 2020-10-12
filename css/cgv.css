@@ -519,7 +519,6 @@ a.bouton1:hover {
   /* color: #FF9800; */
   padding: 24px;
   /* top: 2px; */
-  left: 185px;
   bottom: 80px;
   position: relative;
 }
@@ -572,24 +571,6 @@ a.bouton1:hover {
   position: relative;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -723,3 +704,9 @@ textarea{
   width: 2%;
 }
 }
+
+
+@media screen and (min-width: 30em) and (orientation: landscape) {
+
+
+ }
