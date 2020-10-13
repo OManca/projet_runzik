@@ -688,3 +688,17 @@ textarea{
   width: 2%;
 }
 }
+
+
+
+
+@media (max-width: 1805px) {
+
+  .paragraph-right p {
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+
+ }
