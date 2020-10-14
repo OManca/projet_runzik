@@ -259,7 +259,7 @@ p{
     line-height: 24px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .nos_casques h2 {
     font-size: 37px;
   }
@@ -335,9 +335,14 @@ p{
     float: left;
     width: 45%;
   }
-  
-
 }
+@media screen and (min-width: 768px) and (max-width: 1200px){
+  .nos_casques_img{
+    width: 10%;
+    padding-top: 30px;
+  }
+}
+
 
 /****** Page casque ******/
 @media screen and (max-width: 1200px){}
