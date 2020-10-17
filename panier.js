@@ -44,8 +44,8 @@ const cart = {
   listeProduits: [],
 
   // obtenir le prix total des articles
-  getTotalPrice(price) {
-    return price * (product.quantity);
+  getTotalPrice(product, price) {
+    return price * this.getTotalQtt(product);
   },
 
   // obtenir la quantité total d'un article
@@ -120,7 +120,7 @@ addHeadPhone.addEventListener('click', () => {
   let price = 189.00;
   cart.addProduct('casque Run\'Zic');
   unitPrice.innerHTML = price;
-  totalPrice.innerHTML = cart.getTotalPrice(price);
+  totalPrice.innerHTML = cart.getTotalPrice('casque Run\'Zic', price);
   basket.innerHTML = cart.getTotalQtt('casque Run\'Zic');
 
 })
@@ -128,7 +128,7 @@ addHeadPhone.addEventListener('click', () => {
 removeHeadPhone.addEventListener('click', () => {
   cart.removeProduct('casque Run\'Zic');
   unitPrice.innerHTML = price;
-  totalPrice.innerHTML = cart.getTotalPrice(price);
+  totalPrice.innerHTML = cart.getTotalPrice(('casque Run\'Zic', price));
   basket.innerHTML = cart.getTotalQtt('casque Run\'Zic');
 })
 
