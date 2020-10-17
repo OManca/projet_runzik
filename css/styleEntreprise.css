@@ -15,6 +15,7 @@ nav {
   padding: 0;
   margin: 0;
 }
+
 #nav-bar, #nav-bar ul{
   padding:0;
   margin:0;
@@ -72,7 +73,7 @@ nav {
   color: #F58C21;
 }
 .form-inline {
-  margin-left: 240px;
+  /* margin-left: 250px; */
   margin-right: 20px;
 }
 .loupe {
@@ -139,6 +140,7 @@ width: 2%;
 }
 
 /* entreprise */
+* {
 box-sizing: border-box;
 }
 
@@ -253,4 +255,20 @@ main {
   right: 100px;
   top: 800px;
 
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+  
+}
+
+@media screen and (min-width:992px) and (max-width:1399px) {
+  
+}
+
+@media screen and (min-width:1400px) {
+  
 }
